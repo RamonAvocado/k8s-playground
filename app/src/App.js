@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './pages/Main'
+
 
 function App() {
-  return (
-    <div className="App">
-    <h1>HOLA</h1>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;
